@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cooper Biofuels - Used Cooking Oil Collection</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4fff4;
+      color: #1b1b1b;
+    }
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    nav {
+      background-color: #00695c;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 30px 15px;
+    }
+    .hero img {
+      width: 90%;
+      max-width: 700px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .section {
+      padding: 30px 15px;
+      text-align: center;
+    }
+    .section h2 {
+      color: #00695c;
+      margin-bottom: 10px;
+    }
+    .section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .locations, .team {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .contact-form {
+      background: #ffffff;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .contact-form button {
+      background-color: #00796b;
+      color: white;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #004d40;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #25D366;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cooper Biofuels</h1>
+    <p>Collecting Used Cooking Oil Nationwide for a Greener, Adulteration Free Tomorrow!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#director">Director</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <img src="https://i.imgur.com/f7osjUP.jpg" alt="Oil Collection Map">
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>We are Cooper Biofuels, actively collecting used cooking oil from restaurants, hotels, and food industries across Pune and Solapur. Our goal is to build a sustainable and safe future by responsibly processing used cooking oil into renewable biofuels.</p>
+
+    <div class="locations">
+      <div class="card">
+        <img src="https://i.imgur.com/9y4NfHL.jpg" alt="Pune Image">
+        <h3>Pune Operations</h3>
+        <p>Efficient oil collection network with multiple pickup points.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/kU8MEaF.jpg" alt="Solapur Image">
+        <h3>Solapur Reach</h3>
+        <p>Quick pickup and safe transport with trained teams.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="director">
+    <h2>Meet Our Director</h2>
+    <div class="card" style="margin:auto;">
+      <img src="https://i.imgur.com/YOUR_DIRECTOR_PHOTO.jpg" alt="Director Photo">
+      <h3>Mr. Abuzar Rangrez</h3>
+      <p>Founder & Director of Cooper Biofuels, Mr. Abuzar Rangrez is committed to a green India. With years of experience in renewable energy and waste management, his leadership drives our vision of a clean, sustainable environment.</p>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <h2>Our Team</h2>
+    <div class="team">
+      <div class="card">
+        <img src="https://i.imgur.com/YOUR_TEAM1_PHOTO.jpg" alt="Collection Officer">
+        <h3>Sameer Shaikh</h3>
+        <p>Collection Officer - Pune</p>
+      </div>
+      <div class="card">
+        <img src="https://i.imgur.com/YOUR_TEAM2_PHOTO.jpg" alt="Team Member">
+        <h3>Rohit Deshmukh</h3>
+        <p>Logistics Head - Solapur</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="text" id="phone" placeholder="Phone Number" required />
+      <textarea id="message" rows="4" placeholder="Your Message or Address"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <a class="whatsapp-btn" href="https://wa.me/917507000705?text=Hi%20Cooper%20Biofuels,%20I%20want%20to%20dispose%20used%20cooking%20oil." target="_blank">📱 Contact on WhatsApp</a>
+  </section>
+
+  <footer>
+    📧 cooperbiofuels@gmail.com <br>
+    📞 7507000705 | 9011024404 | 8767674721 <br><br>
+    &copy; 2025 Cooper Biofuels. All Rights Reserved.
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+
+      if (!name || !email || !phone) {
+        alert('Please fill all required fields.');
+        return;
+      }
+
+      alert('Thank you, ' + name + '! We will contact you soon.');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
